@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuento producto</title>
+</head>
+<body>
+    <script>
+        /**
+         Codigo: 5
+         Objetivo: Repasar operaciones basicas
+         Fecha: 22 septiembre 2025
+         Autor: FernandoRdgz  
+         **/
+         let producto = prompt("Producto: ");
+    let precio = prompt("Precio: ");
+    let descuento = prompt("Descuento: ");
+
+    let tDescuento = parseFloat(precio) * parseFloat(descuento) / 100;
+    let precioFinal = parseFloat(precio) - tDescuento;
+
+        console.log("El precio del artículo es: ", precioFinal);
+        console.log("El precio inicial es:",precio);
+        console.log("El descuento fue:",descuento)
+    </script>
+</body>
+</html>
